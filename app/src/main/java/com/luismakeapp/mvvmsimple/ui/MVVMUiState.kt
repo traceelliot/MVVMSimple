@@ -1,4 +1,5 @@
 package com.luismakeapp.mvvmsimple.ui
 
-class MVVMUiState {
-}
+data class MVVMUiState (
+    val word: String = ""
+)
